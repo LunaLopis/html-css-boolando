@@ -7,12 +7,17 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
 
 .row-100 {
     background-color: rgb(245, 105, 35);
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: center;    
 }
 
 .row-80 {
@@ -48,10 +53,10 @@ body {
 /* inizio main */
 
 .container {
+    
     width: 100%;
     display: flex;
     justify-content: center;
-
 }
 
 .row-100-prodotti {
@@ -59,8 +64,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 20px;
-
+    margin: 100px 20px 20px 20px;
 }
 
 .col-33 {
